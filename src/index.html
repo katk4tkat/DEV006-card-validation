@@ -2,13 +2,41 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>Donaciones Villa Animalista</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header> <h1>DONAR</h1>
+    <p>
+      Muchas gracias por tu donación, con esto estás ayudando a 
+      mejorar la vida de los animales de la Villa Portales.
+    </p>
+      </header>
+    <main>
+      <form class="titular">
+        <p>Nombre titular</p>
+        <input type="text" id="userName" placeholder="Nombre + Apellido" />
+      
+      
+              <p> Número de tarjeta </p>
+        <input id="creditCard" type="password" id="CardNumber" placeholder="16 dígitos"/>
+        <p> cvc </p> 
+      
+        <input type="text" id="cvc" placeholder="cvc"/>
+      
+        <p> Fecha caducidad </p>
+        <input type="month" id="fecha" placeholder="mm/aa"/>
+
+        <button type="submit">Validar!</button>
+        <button type="reset"> Reiniciar</button>      
+      
+      </form>
+
+    
+    <input type="reset" value="Este es un botón de reinicio">
+
+    </main>
+    <footer> Creado por Katk4tkat</footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
