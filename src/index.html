@@ -13,28 +13,27 @@
     </p>
       </header>
     <main>
-      <form class="titular">
-        <p>Nombre titular</p>
+      <div>
+      <form class="form1">
+        <label for="userName">Nombre titular</label>
         <input type="text" id="userName" placeholder="Nombre + Apellido" />
       
       
-              <p> Número de tarjeta </p>
-        <input id="creditCard" type="password" id="CardNumber" placeholder="16 dígitos"/>
-        <p> cvc </p> 
-      
+        <label for="creditCard"> Número de tarjeta </label>
+        <input id="creditCard" type="password" placeholder="16 dígitos"/>
+        
+        <label for="cvc"> cvc </label> 
         <input type="text" id="cvc" placeholder="cvc"/>
       
-        <p> Fecha caducidad </p>
-        <input type="month" id="fecha" placeholder="mm/aa"/>
+        <label for="date"> Fecha caducidad </label>
+        <input type="month" id="date" placeholder="mm/aa"min="2023-01"
+        max="2035-12"/>
 
         <button type="submit">Validar!</button>
         <button type="reset"> Reiniciar</button>      
       
       </form>
-
-    
-    <input type="reset" value="Este es un botón de reinicio">
-
+    </div>
     </main>
     <footer> Creado por Katk4tkat</footer>
     <script src="index.js" type="module"></script>

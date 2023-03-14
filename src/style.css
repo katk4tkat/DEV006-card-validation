@@ -1,7 +1,5 @@
 * {
     box-sizing: border-box;
-    font-family: sans-serif
-    style; ;
   }
   header {
     text-align: center;
@@ -11,19 +9,21 @@
     border-color: black;
   }
   
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
   h1 {
     color: #ffffff;
   }
-  p {
+  label {
+    font-weight: bold;
     color: rgb(255, 255, 255);
   }
-  .titular {
-    text-align: center;
-    padding: 10px;
-    font-weight: bold;
-     }
 
-main {
+  main {
   background-color: dimgray;
 }
 button {
