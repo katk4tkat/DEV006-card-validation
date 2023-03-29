@@ -1,14 +1,31 @@
 import validator from './validator.js';
 
-let User = document.getElementById ("userName")
+// Recuperar nombre de usuario
 
-User.addEventListener("keyup",()=> console.log(User.value))
+//recuperar numero de tarjeta
 
-let TC = document.getElementById ("creditCard")
+const numeroTarjeta = document.getElementById('creditCard')
 
-TC.addEventListener("keyup",function() {
-    console.log(TC.value.split(""))
-})
+
+const user = document.getElementById("userName");
+user.addEventListener("keyup", () => console.log(user.value));
+
+// recuperar numero de tarjeta
+
+const formulario = document.getElementById("formulario1")
+
+formulario.addEventListener("submit", function (validar) {
+  validar.preventDefault();
+
+  const estado = validator.isValid(numeroTarjeta.value)
+  const maskify = validator.maskify(numeroTarjeta.value)
+
+  if (estado === true) {
+    alert("Tarjeta " + maskify + " es válida")
+  }
+  else { alert("Tarjeta " + maskify + " es inválida") }
+}
+);
 
 
 console.log(validator);
