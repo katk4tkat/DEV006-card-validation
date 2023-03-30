@@ -17,10 +17,20 @@ header {
   border-bottom:  4px solid #5531b9;
 
 }
-menu {
-  display: flex
-  border:
+#menu {
+  display: flex;
 }
+
+#menu a{
+  padding-left: 10px;
+  text-decoration: none;
+  color:rgb(255, 255, 255);
+}
+
+#menu a:hover{
+  color: #5531b9;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -85,7 +95,12 @@ label {
   color: rgb(143, 112, 161);
 }
 
+.grupo-select {
+  text-align: center;
+}
+
 button {
+margin-left: 100px;
   border: solid 1px rgb(105, 89, 177); 
   padding: 11px;
   width: 180px;

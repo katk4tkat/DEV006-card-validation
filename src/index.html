@@ -13,9 +13,9 @@
   <h1> <strong> DONAR! </strong></h1>
 
 <div id="menu">  
-    <nav> <a href="" class="nav-link"> Inicio </a> </nav>
-    <nav> <a href="" class="nav-link"> Donar </a></nav>
-    <nav> <a href="" class="nav-link"> contacto </a></nav>
+    <a href="" class="nav-link"> Inicio </a>
+    <a href="" class="nav-link"> Donar </a>
+    <a href="" class="nav-link"> contacto </a>
 </header>
 </div>
 <body>
@@ -33,6 +33,37 @@
       <label for="cvc"> cvc </label>
       <input type="password" maxlength="3" id="cvc" placeholder="cvc"
         onkeypress="return (event.charCode >= 48 && event.charCode <= 57)" required />
+      
+      <label for="expiracion"> Expiración </label>
+    
+      <div id="expiracion" class="grupo-select">
+        <select name="Mes" id="selecMes">
+          <odption disabled selected>Mes</odption>
+          <option value="1">01</option>
+          <option value="2">02</option>
+          <option value="3">03</option>
+          <option value="4">04</option>
+          <option value="5">05</option>
+          <option value="6">06</option>
+          <option value="7">07</option>
+          <option value="8">08</option>
+          <option value="9">09</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+
+        </select>
+        <i class="fas fa-angle=down"></i>
+        <select name="Año" id="selecAño">
+          <option disabled selected>Año</option>
+          <option value="2023">2023</option>
+          <option value="2024">2024</option>
+          <option value="2025">2025</option>
+          <option value="2026">2026</option>
+          <option value="2027">2027</option>
+        </select>
+        <i class="fas fa-angle=down"></i>
+      </div>
 
       <button id="validate" type="submit" value="validate"> Donar!</button>
 
