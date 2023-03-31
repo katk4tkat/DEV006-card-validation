@@ -1,6 +1,7 @@
 
 ## SITIO WEB
 https://katk4tkat.github.io/DEV006-card-validation/src/index.html
+
 # Donaciones Villa Animalista
 
 
@@ -36,7 +37,6 @@ Todos los inputs son requeridos, entre los que se encuentran:
 - CVC.
 - Fecha de expiración. 
 
-![App Screenshot]([https://i.ibb.co/JjXmjjf/Captura2.png]
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/JjXmjjf/Captura2.png" alt="Captura2" border="0"></a>
 
 Con todos estos datos, es posible generar una donación a la Villa Animalista. 
