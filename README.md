@@ -16,12 +16,12 @@ El diseño es en colores negros y blancos, con toques de morado para hacerlo un 
 La elección de los colores proviene del logo de la agrupación. Al mismo tiempo, se optó por utilizar poca información visual, con el fin de evitar distractores para quien esté utilizando el sitio web.
 
 
-![Logo](https://ibb.co/VDBTKXy)
+![Logo](https://i.ibb.co/8289hF3/BLANCOCHICO.png)
 
 
 ## Screenshot
 
-![App Screenshot](https://ibb.co/XkSrgGt)
+![App Screenshot](https://i.ibb.co/qFk3f2p/Captura.png)
 
 
 ## Objetivos  
