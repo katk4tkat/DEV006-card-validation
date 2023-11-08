@@ -1,18 +1,17 @@
 import validator from './validator.js';
 
-// Recuperar nombre de usuario
 
-//recuperar numero de tarjeta
+//recuperar numero de tarjeta:
 
 const numeroTarjeta = document.getElementById('creditCard')
 
+//recuperar nombre de usuario:
 
 const user = document.getElementById("userName");
 user.addEventListener("keyup", () => console.log(user.value));
 
-// recuperar numero de tarjeta
 
-const formulario = document.getElementById("formulario1")
+const formulario = document.getElementById("form")
 
 formulario.addEventListener("submit", function (validar) {
   validar.preventDefault();
