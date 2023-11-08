@@ -1,0 +1,135 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  background-color: black;
+  padding: 15px;
+  border-bottom: 4px solid #5531b9;
+
+}
+
+.logo {
+  align-items: center;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.logoImg {
+  align-items: center;
+  margin: -25px;
+}
+
+.donationHeader {
+  color: white;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.informationContainer {
+  width: 50%;
+}
+
+form {
+  background-color: rgb(255, 255, 255);
+  padding: 40px;
+  border-radius: 30px;
+  margin: 50px;
+}
+
+
+p {
+  color: #ffffff;
+  width: 100%;
+  padding-top: 2%;
+  padding-left: 2%;
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Lucida', sans-serif
+}
+
+.informationContainer {
+  display: flex;
+  width: 50%;
+}
+
+.informationText {
+  color: white;
+  text-align: center;
+  margin: 30px;
+}
+
+.carlitosImg {
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 300px;
+}
+
+input {
+  background-color: #F6F6F6;
+  border: solid 1px #9D9D9C;
+  padding: 10px;
+  width: 300px;
+  position: relative;
+  font-size: 15px;
+  border-radius: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  padding: 120px;
+  font-weight: bold;
+  color: rgb(143, 112, 161);
+}
+
+.grupo-select {
+  text-align: center;
+}
+
+button {
+  margin-left: 100px;
+  border: solid 1px rgb(105, 89, 177);
+  padding: 11px;
+  width: 180px;
+  margin-top: 4px;
+  position: relative;
+  background: #5531b9;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-family: 'Lucida', sans-serif;
+  border-radius: 15px;
+}
+
+button:hover {
+  cursor: pointer;
+  background: rgb(141, 146, 214);
+  border: solid 1px rgb(105, 89, 177);
+  color: black;
+}
+
+footer {
+  background-color: #5531b9;
+  color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+
+.linkKat {
+  color: white;
+}
